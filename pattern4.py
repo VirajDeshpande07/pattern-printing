@@ -1,4 +1,5 @@
+# Print numbers from 1 to the current row number
 for i in range(1,6):
     for j in range(1,i+1):
         print(j,end=" ")
-    print()
+    print()  # Move to the next line
